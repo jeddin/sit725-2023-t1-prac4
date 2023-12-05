@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Get Doggos</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<nav>
+			<div class="nav-wrapper navbar-size">
+				<a href="#" class="brand-logo"><img class="user-image-size" src="images/user-image.png"></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a target="_blank" href="https://www.google.com">Google</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="main-body">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 center-align">
+						<h1 id="heading">Welcome to the doggo page</h1>
+						<p class="flow-text">This is a webpage in which you can get all the pictures of cute doggos that you'd like!</p>
+					</div>
+					<div class="col s4 center-align">
+						<a class="waves-effect waves-light btn click-me-button" id="deleteCollectionButton"><i class="material-icons left">auto_fix_high</i>Send doggos away</a>
+					</div>
+					<div class="col s4 center-align">
+						<a class="waves-effect waves-light btn click-me-button" id="refreshHome" href="/getPics.html"><i class="material-icons left">auto_fix_high</i>Refresh doggos' home</a>
+					</div>
+					<div class="col s4 center-align">
+						<a class="waves-effect waves-light btn click-me-button" id="getMoreDoggos" href="/indexMongo.html"><i class="material-icons left">auto_fix_high</i>Get more doggos!</a>
+					</div>
+				</div>
+				<div class="row" id="card-section">
+				</div>
+			</div>
+		</main>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="js/scriptMongo.js"></script>
+	</body>
+</html>
